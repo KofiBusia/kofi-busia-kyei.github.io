@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kofi Busia Kyei - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kofi Busia Kyei</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills & Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Kofi Busia Kyei" class="profile-img">
+            <p>{{ professional_summary }}</p>
+        </section>
+        <section id="experience">
+            <h2>Employment Experience</h2>
+            <ul>
+                {% for job in employment_experience %}
+                <li>
+                    <h3>{{ job.title }}</h3>
+                    <p>{{ job.period }}, {{ job.company }}</p>
+                    <p>{{ job.description }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                {% for pub in publications %}
+                <li>{{ pub.title }}, {{ pub.source }} ({{ pub.date }})</li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                {% for project in projects %}
+                <li><strong>{{ project.name }}</strong>: {{ project.description }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills & Certifications</h2>
+            <ul>
+                {% for skill in skills_certifications %}
+                <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                {% for edu in education %}
+                <li>{{ edu.degree }}, {{ edu.institution }} ({{ edu.period }})</li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: {{ personal_details.email }}</p>
+            <p>Phone: {{ personal_details.phone }}</p>
+            <p>LinkedIn: <a href="{{ personal_details.linkedin }}">{{ personal_details.linkedin }}</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Kofi Busia Kyei. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -78,15 +78,50 @@ employment_experience = [
     }
 ]
 
-# Publications
+# In generate_website.py, update the publications list
 publications = [
-    {'title': 'CEDI FACES PRESSURE AMID US DEBT CEILING NEGOTIATIONS', 'source': 'Business & Financial Times', 'date': 'May 30, 2023'},
-    {'title': 'Green Bonds: A Model of Transparency and Accountability in Sustainable Investments', 'source': 'Business & Financial Times', 'date': 'July 22, 2024'},
-    {'title': 'Formalizing Businesses: The Key to Attracting Investors and Affordable Capital', 'source': 'Business & Financial Times', 'date': 'Sept 14, 2023'},
-    {'title': 'Investments on the Ghana Stock Exchange: Has the Foreign Investor Benefited?', 'source': 'CITI Newsroom', 'date': 'Sept 2018'},
-    {'title': 'DDEP Coupon Payments: Key to Financial Markets Recovery', 'source': 'Business & Financial Times', 'date': 'Sept 22, 2023'},
-    {'title': 'Unlisted Multinational Companies in Ghana: A Reason for the Depreciation of the Ghanaian Cedi', 'source': 'Business & Financial Times', 'date': 'Sept 19, 2023'},
-    {'title': 'BITCOINS, ALTCOINS, PONZI SCHEMES', 'source': 'Business & Financial Times', 'date': 'Feb 18, 2018'}
+    {
+        'title': 'CEDI FACES PRESSURE AMID US DEBT CEILING NEGOTIATIONS',
+        'source': 'Business & Financial Times',
+        'date': 'May 30, 2023',
+        'url': 'https://thebftonline.com/2023/05/30/cedi-faces-pressure-amid-us-debt-ceiling-negotiations/'
+    },
+    {
+        'title': 'Green Bonds: A Model of Transparency and Accountability in Sustainable Investments',
+        'source': 'Business & Financial Times',
+        'date': 'July 22, 2024',
+        'url': 'https://thebftonline.com/2024/07/22/green-bonds-a-model-of-transparency-and-accountability-in-sustainable-investments/'
+    },
+    {
+        'title': 'Formalizing Businesses: The Key to Attracting Investors and Affordable Capital',
+        'source': 'Business & Financial Times',
+        'date': 'Sept 14, 2023',
+        'url': 'https://thebftonline.com/2023/09/14/formalizing-businesses-the-key-to-attracting-investors-and-accessing-affordable-capital/'
+    },
+    {
+        'title': 'Investments on the Ghana Stock Exchange: Has the Foreign Investor Benefited?',
+        'source': 'CITI Newsroom',
+        'date': 'Sept 2018',
+        'url': 'https://citibusinessnews.com/2017/09/investments-on-the-ghana-stock-market-has-the-foreign-investor-benefited/'
+    },
+    {
+        'title': 'DDEP Coupon Payments: Key to Financial Markets Recovery',
+        'source': 'Business & Financial Times',
+        'date': 'Sept 22, 2023',
+        'url': 'https://thebftonline.com/2023/09/29/ddep-coupon-payments/'
+    },
+    {
+        'title': 'Unlisted Multinational Companies in Ghana: A Reason for the Depreciation of the Ghanaian Cedi',
+        'source': 'Business & Financial Times',
+        'date': 'Sept 19, 2023',
+        'url': 'https://www.ghanaweb.com/GhanaHomePage/features/Unlisted-multinational-companies-in-Ghana-A-reason-for-the-depreciation-of-the-Ghanaian-Cedi-1848551'
+    },
+    {
+        'title': 'BITCOINS, ALTCOINS, PONZI SCHEMES',
+        'source': 'Business & Financial Times',
+        'date': 'Feb 18, 2018',
+        'url': 'https://thebftonline.com/2018/02/26/bitcoins-altcoins-ponzi-schemes/'
+    }
 ]
 
 # Projects

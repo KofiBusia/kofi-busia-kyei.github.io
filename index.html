@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kofi Busia Kyei - Personal Website</title>
+    <meta name="description" content="Personal website of Kofi Busia Kyei, a seasoned finance professional specializing in investment management.">
+    <meta name="keywords" content="finance, investment, wealth management, stockbroking, AI, publications, blog">
+    <meta name="author" content="Kofi Busia Kyei">
+    <title>Kofi Busia Kyei - Finance Expert</title>
+    <!-- Google Fonts for modern typography -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Kofi Busia Kyei</h1>
+        <p class="subtitle">Seasoned Finance Professional | Investment Management Expert</p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -17,6 +26,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills & Certifications</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#blog">My Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -24,16 +34,20 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="profile.jpg" alt="Kofi Busia Kyei" class="profile-img">
-            <p>
+            <div class="profile-container">
+                <img src="profile.jpg" alt="Kofi Busia Kyei" class="profile-img" loading="lazy">
+                <div class="profile-text">
+                    <p>
 Seasoned finance professional with over a decade of experience in investment management, wealth management, and stockbroking. Proven expertise in pension fund oversight, portfolio optimization, and strategic leadership. Adept at leveraging advanced technologies, including Artificial Intelligence, to deliver innovative solutions in financial services. A recognized thought leader with multiple published works and a track record of achieving outstanding investment returns and forging impactful industry partnerships.
 </p>
+                </div>
+            </div>
         </section>
         <section id="experience">
             <h2>Employment Experience</h2>
             <ul>
                 
-                <li>
+                <li class="job-card">
                     <h3>Head, Pension Funds & Institutional Funds Management</h3>
                     <p>Sep 2022 - Present, Merban Capital Ltd (formerly UMB Investment Holdings Limited)</p>
                     <p>
@@ -45,7 +59,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>Deputy Manager, Wealth Management</h3>
                     <p>Sep 2019 - Aug 2022, Merban Capital Ltd</p>
                     <p>
@@ -54,7 +68,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>Acting Head</h3>
                     <p>May 2016 - Apr 2018, UMB Stockbrokers Limited</p>
                     <p>
@@ -63,7 +77,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>Head, Trading & Settlement</h3>
                     <p>Apr 2015 - May 2016, UMB Stockbrokers Ltd</p>
                     <p>
@@ -71,7 +85,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>Research & Relationship Manager</h3>
                     <p>Jun 2012 - Apr 2015, UMB Stockbrokers Limited</p>
                     <p>
@@ -79,7 +93,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>Banking Officer</h3>
                     <p>Feb 2009 - Jun 2012, Universal Merchant Bank</p>
                     <p>
@@ -87,7 +101,7 @@ Seasoned finance professional with over a decade of experience in investment man
         </p>
                 </li>
                 
-                <li>
+                <li class="job-card">
                     <h3>National Service Person</h3>
                     <p>Oct 2007 - Aug 2008, Universal Merchant Bank</p>
                     <p>
@@ -101,19 +115,40 @@ Seasoned finance professional with over a decade of experience in investment man
             <h2>Publications</h2>
             <ul>
                 
-                <li>CEDI FACES PRESSURE AMID US DEBT CEILING NEGOTIATIONS, Business & Financial Times (May 30, 2023)</li>
+                <li>
+                    <a href="https://thebftonline.com/2023/05/30/cedi-faces-pressure-amid-us-debt-ceiling-negotiations/" target="_blank" class="pub-link">CEDI FACES PRESSURE AMID US DEBT CEILING NEGOTIATIONS</a>, 
+                    Business & Financial Times (May 30, 2023)
+                </li>
                 
-                <li>Green Bonds: A Model of Transparency and Accountability in Sustainable Investments, Business & Financial Times (July 22, 2024)</li>
+                <li>
+                    <a href="https://thebftonline.com/2024/07/22/green-bonds-a-model-of-transparency-and-accountability-in-sustainable-investments/" target="_blank" class="pub-link">Green Bonds: A Model of Transparency and Accountability in Sustainable Investments</a>, 
+                    Business & Financial Times (July 22, 2024)
+                </li>
                 
-                <li>Formalizing Businesses: The Key to Attracting Investors and Affordable Capital, Business & Financial Times (Sept 14, 2023)</li>
+                <li>
+                    <a href="https://thebftonline.com/2023/09/14/formalizing-businesses-the-key-to-attracting-investors-and-accessing-affordable-capital/" target="_blank" class="pub-link">Formalizing Businesses: The Key to Attracting Investors and Affordable Capital</a>, 
+                    Business & Financial Times (Sept 14, 2023)
+                </li>
                 
-                <li>Investments on the Ghana Stock Exchange: Has the Foreign Investor Benefited?, CITI Newsroom (Sept 2018)</li>
+                <li>
+                    <a href="https://citibusinessnews.com/2017/09/investments-on-the-ghana-stock-market-has-the-foreign-investor-benefited/" target="_blank" class="pub-link">Investments on the Ghana Stock Exchange: Has the Foreign Investor Benefited?</a>, 
+                    CITI Newsroom (Sept 2018)
+                </li>
                 
-                <li>DDEP Coupon Payments: Key to Financial Markets Recovery, Business & Financial Times (Sept 22, 2023)</li>
+                <li>
+                    <a href="https://thebftonline.com/2023/09/29/ddep-coupon-payments/" target="_blank" class="pub-link">DDEP Coupon Payments: Key to Financial Markets Recovery</a>, 
+                    Business & Financial Times (Sept 22, 2023)
+                </li>
                 
-                <li>Unlisted Multinational Companies in Ghana: A Reason for the Depreciation of the Ghanaian Cedi, Business & Financial Times (Sept 19, 2023)</li>
+                <li>
+                    <a href="https://www.ghanaweb.com/GhanaHomePage/features/Unlisted-multinational-companies-in-Ghana-A-reason-for-the-depreciation-of-the-Ghanaian-Cedi-1848551" target="_blank" class="pub-link">Unlisted Multinational Companies in Ghana: A Reason for the Depreciation of the Ghanaian Cedi</a>, 
+                    Business & Financial Times (Sept 19, 2023)
+                </li>
                 
-                <li>BITCOINS, ALTCOINS, PONZI SCHEMES, Business & Financial Times (Feb 18, 2018)</li>
+                <li>
+                    <a href="https://thebftonline.com/2018/02/26/bitcoins-altcoins-ponzi-schemes/" target="_blank" class="pub-link">BITCOINS, ALTCOINS, PONZI SCHEMES</a>, 
+                    Business & Financial Times (Feb 18, 2018)
+                </li>
                 
             </ul>
         </section>
@@ -159,15 +194,33 @@ Seasoned finance professional with over a decade of experience in investment man
                 
             </ul>
         </section>
+        <section id="blog">
+            <h2>My Blog</h2>
+            <p>Upcoming articles and insights on finance, technology, and investment strategies will be posted here. Stay tuned!</p>
+            <!-- Placeholder for future dynamic blog content -->
+        </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: kyeikofi@gmail.com</p>
-            <p>Phone: 0244208667</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/kofi-busia-kyei-24a6661b8">https://linkedin.com/in/kofi-busia-kyei-24a6661b8</a></p>
+            <p><i class="fas fa-envelope"></i> Email: kyeikofi@gmail.com</p>
+            <p><i class="fas fa-phone"></i> Phone: 0244208667</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/kofi-busia-kyei-24a6661b8" target="_blank">https://linkedin.com/in/kofi-busia-kyei-24a6661b8</a></p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Kofi Busia Kyei. All rights reserved.</p>
+        <p>© 2025 Kofi Busia Kyei. All rights reserved.</p>
     </footer>
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
